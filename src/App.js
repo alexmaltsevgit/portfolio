@@ -1,12 +1,17 @@
 import "./App.css";
-import { Container, CssBaseline, Typography } from "@mui/material";
+import Header from "./components/Header";
+import { Box, Container, CssBaseline, Typography } from "@mui/material";
 
 function App() {
   return (
     <>
       <CssBaseline />
       <Typography>
-        <Container>Hello</Container>
+        <Container>
+          <Box mt={5}>
+            <Header>hello</Header>
+          </Box>
+        </Container>
       </Typography>
     </>
   );
