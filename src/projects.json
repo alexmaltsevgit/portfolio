@@ -8,40 +8,48 @@
     "title": "R3News",
     "description": "Новостной агрегатор (проект в разработке). Я не нашел новостной агрегатор, который бы мне понравился, поэтому я делаю свой. Здесь используются React, Redux, Styled Components, Firebase.",
     "github": "https://github.com/alexmaltsevgit/r3news",
-    "site": "https://r3news.herokuapp.com"
+    "site": "https://r3news.herokuapp.com",
+    "image": "https://i.ibb.co/G0HLjQf/React.png"
   },{
     "title": "DGTL Squad",
     "description": "Сайт цифровой компании DGTL Squad. Разработан с использованием чистого JS и препроцессора SCSS. Задействованы библиотеки Swiper и accordion.js",
-    "site": "https://dgtl-squad.ru/"
+    "site": "https://dgtl-squad.ru/",
+    "image": "https://i.ibb.co/TcSdgD2/dgtl.png"
   },
   {
     "title": "Sort App",
     "description": "Приложение в стиле панели управления для исследования алгоритмов сортировки. Интерфейс написан на React + Styled Components, графики рисуются как вручную на нативном Canvas, так и посредством библиотеки Chart.js",
     "github": "https://github.com/alexmaltsevgit/sort-app",
-    "site": "https://react-sort.herokuapp.com/"
+    "site": "https://react-sort.herokuapp.com/",
+    "image": "https://i.ibb.co/s1g5xMV/Chart.png"
   },
   {
     "title": "Negacons",
     "description": "Сайт бухгалтерской аутсорс-компании Negacons. Калькулятор прайса, обратная связь, сложная вёрстка, всплывающие поп-апы. Это приложение собирается webpack-ом и написано на ванильном JS со стилями на SCSS",
-    "site": "https://negacons.ru/"
+    "site": "https://negacons.ru/",
+    "image": "https://i.ibb.co/WvB1Qz9/negacons.png"
   },
   {
     "title": "ЕЦПП",
     "description": "Сервис поддержки предпринимателей. Достался мне в поддержку от других разработчиков. Написан преимущественно на JQuery и Bootstrap.",
-    "github": "https://doc-prof.ru/"
+    "github": "https://doc-prof.ru/",
+    "image": "https://i.ibb.co/XV84sZr/ecpp.png"
   },{
     "title": "PHP MVC Implementation",
     "description": "Проект по реализации Yii-подобного паттерна MVC на PHP без использования фреймворков и библиотек.",
-    "github": "https://github.com/alexmaltsevgit/php-mvc-impl"
+    "github": "https://github.com/alexmaltsevgit/php-mvc-impl",
+    "image": "https://i.ibb.co/YZ6Qtmj/php.png"
   },
   {
     "title": "VueLRN",
     "description": "Небольшое веб-приложение, содержащее утилитарные функциональные компоненты. Написано на Vue без использования любых других библиотек.",
-    "github": "https://github.com/alexmaltsevgit/vuelrn"
+    "github": "https://github.com/alexmaltsevgit/vuelrn",
+    "image": "https://i.ibb.co/XL29fpC/Vue.png"
   },
   {
     "title": "Lowbot",
     "description": "Бот на python. Автоматизированное взаимодействие с веб-приложением посредством библиотеки selenium.",
-    "github": "https://github.com/alexmaltsevgit/lowbot"
+    "github": "https://github.com/alexmaltsevgit/lowbot",
+    "image": "https://i.ibb.co/1ZB4Yrx/Python.png"
   }
 ]
