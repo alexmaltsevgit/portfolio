@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Этот сайт",
+    "description": "Моё портфолио. Здесь описаны мои проекты которые я разрабатывал или поддерживал сам или с командой. Это приложение написано на React с использованием библиотеки компонентов Material UI.",
+    "github": "https://github.com/alexmaltsevgit/portfolio"
+  },
+  {
+    "title": "R3News",
+    "description": "Новостной агрегатор (проект в разработке). Я не нашел новостной агрегатор, который бы мне понравился, поэтому я делаю свой. Здесь используются React, Redux, Styled Components, Firebase.",
+    "github": "https://github.com/alexmaltsevgit/r3news",
+    "site": "https://r3news.herokuapp.com"
+  },{
+    "title": "DGTL Squad",
+    "description": "Сайт цифровой компании DGTL Squad. Разработан с использованием чистого JS и препроцессора SCSS. Задействованы библиотеки Swiper и accordion.js",
+    "site": "https://dgtl-squad.ru/"
+  },
+  {
+    "title": "Sort App",
+    "description": "Приложение в стиле панели управления для исследования алгоритмов сортировки. Интерфейс написан на React + Styled Components, графики рисуются как вручную на нативном Canvas, так и посредством библиотеки Chart.js",
+    "github": "https://github.com/alexmaltsevgit/sort-app",
+    "site": "https://react-sort.herokuapp.com/"
+  },
+  {
+    "title": "Negacons",
+    "description": "Сайт бухгалтерской аутсорс-компании Negacons. Калькулятор прайса, обратная связь, сложная вёрстка, всплывающие поп-апы. Это приложение собирается webpack-ом и написано на ванильном JS со стилями на SCSS",
+    "site": "https://negacons.ru/"
+  },
+  {
+    "title": "ЕЦПП",
+    "description": "Сервис поддержки предпринимателей. Достался мне в поддержку от других разработчиков. Написан преимущественно на JQuery и Bootstrap.",
+    "github": "https://doc-prof.ru/"
+  },{
+    "title": "PHP MVC Implementation",
+    "description": "Проект по реализации Yii-подобного паттерна MVC на PHP без использования фреймворков и библиотек.",
+    "github": "https://github.com/alexmaltsevgit/php-mvc-impl"
+  },
+  {
+    "title": "VueLRN",
+    "description": "Небольшое веб-приложение, содержащее утилитарные функциональные компоненты. Написано на Vue без использования любых других библиотек.",
+    "github": "https://github.com/alexmaltsevgit/vuelrn"
+  },
+  {
+    "title": "Lowbot",
+    "description": "Бот на python. Автоматизированное взаимодействие с веб-приложением посредством библиотеки selenium.",
+    "github": "https://github.com/alexmaltsevgit/lowbot"
+  }
+]
