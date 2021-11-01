@@ -8,20 +8,29 @@ import {
   Paper,
   Typography,
 } from "@mui/material";
-import { useCallback } from "react";
+import { makeStyles } from "@mui/styles";
+import { useCallback, useMemo } from "react";
 import CardLink from "./CardLink";
 
-const paperStyle = { height: "100%" };
+const styles = makeStyles({
+  paper: {
+    height: "100%",
+  },
+  card: {
+    height: "100%",
+    display: "flex",
+    flexDirection: "column",
+  },
+  cardActionArea: {
+    flex: "1",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
+  },
+});
 
-const cardStyle = { height: "100%", display: "flex", flexDirection: "column" };
-
-const cardActionAreaStyle = {
-  flex: "1",
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "flex-start",
-  justifyContent: "flex-start",
-};
+const stockPhoto = "https://i.ibb.co/9ZYkd91/maxresdefault.jpg";
 
 const ProjectCard = ({
   title,
@@ -30,6 +39,8 @@ const ProjectCard = ({
   site = null,
   image = null,
 }) => {
+  const classes = useMemo(styles, []);
+
   const openProject = useCallback(() => {
     const url = site || github;
     if (url) {
@@ -38,17 +49,23 @@ const ProjectCard = ({
   }, [github, site]);
 
   return (
-    <Paper elevation={3} sx={paperStyle}>
+    <Paper elevation={3} classes={classes.paper}>
       <Box height={"100%"}>
-        <Card sx={cardStyle}>
-          <CardActionArea onClick={openProject} sx={cardActionAreaStyle}>
+        <Card classes={classes.card}>
+          <CardActionArea
+            onClick={openProject}
+            classes={classes.cardActionArea}
+          >
             <CardMedia
               component={"img"}
               height={300}
-              image={"https://i.ytimg.com/vi/1Ne1hqOXKKI/maxresdefault.jpg"}
+              image={image || stockPhoto}
+              sx={{
+                objectFit: image ? "scale-down" : "cover",
+              }}
             />
             <CardContent>
-              <Typography gutterBottom variant={"h4"} mt={1}>
+              <Typography variant={"h4"} mt={1}>
                 {title}
               </Typography>
 
