@@ -1,9 +1,13 @@
-import { Box, Paper, Typography } from "@mui/material";
+import { Box, Paper, Typography, useMediaQuery } from "@mui/material";
+import { useTheme } from "@mui/styles";
 
 const Header = () => {
+  const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down("md"));
+
   return (
     <Paper elevation={3}>
-      <Box py={5} px={7}>
+      <Box py={isSmall ? 3 : 5} px={isSmall ? 5 : 7}>
         <Typography variant={"h2"} letterSpacing={1}>
           Александр Мальцев
         </Typography>

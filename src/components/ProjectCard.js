@@ -9,7 +9,7 @@ import {
   Typography,
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import { useCallback, useMemo } from "react";
+import { useCallback } from "react";
 import CardLink from "./CardLink";
 
 const styles = makeStyles({
@@ -39,7 +39,7 @@ const ProjectCard = ({
   site = null,
   image = null,
 }) => {
-  const classes = useMemo(styles, []);
+  const classes = styles();
 
   const openProject = useCallback(() => {
     const url = site || github;
@@ -49,12 +49,12 @@ const ProjectCard = ({
   }, [github, site]);
 
   return (
-    <Paper elevation={3} classes={classes.paper}>
+    <Paper elevation={3} className={classes.paper}>
       <Box height={"100%"}>
-        <Card classes={classes.card}>
+        <Card className={classes.card}>
           <CardActionArea
             onClick={openProject}
-            classes={classes.cardActionArea}
+            className={classes.cardActionArea}
           >
             <CardMedia
               component={"img"}
