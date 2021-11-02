@@ -32,7 +32,7 @@
   {
     "title": "ЕЦПП",
     "description": "Сервис поддержки предпринимателей. Достался мне в поддержку от других разработчиков. Написан преимущественно на JQuery и Bootstrap.",
-    "github": "https://doc-prof.ru/",
+    "site": "https://doc-prof.ru/",
     "image": "https://i.ibb.co/XV84sZr/ecpp.png"
   },{
     "title": "PHP MVC Implementation",
